@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.baslik{
+    color : palevioletred;
+    font-size: 20px;
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    float: left;
+    margin-right: 10px;
+    margin-left: 4px;
+}
+.ustkisim{
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    height: 1348;
+    width: 100%;
+    background: peachpuff;
+    color: lightcoral;
+    padding: 15px;
+
+}
+.tab{
+    overflow: hidden;
+    position: fixed; 
+    color: #424242;   
+}
+.tab button{
+    border: none;
+    outline: none;
+    position: fixed;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tab button:active{
+    color: #000;
+}
+.fl{
+    float: left;
+    padding: 10px;
+/*    text-align: center;
+    margin: auto; */
+}
+.fltemizle{
+    clear: left;
+}
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.fr{
+    float: right;
+    padding: 10px;
+}
+#middle{
+    width: 1100px;
+    height: 256px;
+    margin: auto;
+}
+div.thumpnails{
+    margin-top: 25px;
+    width: 1100px;
+    height: 290px;
+}
+.headline1{
+    width: 460px;
+    height: 290px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+}
+.headline2{
+    width: 320px;
+    height: 290px;
+    margin-right: 5px;
+    float: left;
+    position: relative;
+}
+.headline3{
+    width: 310px;
+    height: 155px;
+    float: left;
+    position: relative;
+}
+.headline4{
+    width: 310px;
+    height: 130px;
+    float: left;
+    position: relative;
+}
+#headlines{
+    width: 1100px;
+    height: 315px;
+    margin: 0px auto;
+    background-color: aquamarine
+}
+div.h3{
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+   /* margin: 0px auto; */
+    color: white;
+    float: left;
+    position: absolute;
+    top: 240px;
+    padding-left: 10px;
+}
+/*h3{
+    color: red;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+div.h4{
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 130px;
+    padding-left: 10px;
+}
+.bosluk{
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 70px;
+    padding-left: 10px;
+}
+#bottom{
+    width: 1100px;
+    height: 130px;
+    margin: 10px auto;
+    position: relative;
+}
+#home{
+    float: left;
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    color: #424242;
+    margin: auto;   
+    width: 1100px;
+    height: 100%;
+    background-color: blueviolet;
+}
+.image1{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+.image1 :hover{
+    opacity: 1;
+}
+.image1 ::before{
+    content: "";
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0,1));
+    transition: all .3s ease-in;
+}
+.image1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0,0);
+}
+.title{
+    overflow: hidden;
+    color: white;
+}
+.haberler{
+    margin: auto;
+    width: 550px;
+    height: 100%;
+    background-color: cornflowerblue;
+    float: left;
+    padding-top: 10px;
+
+}
+.habericerik{
+    color: #1c1c1c;
+    width: 550px;
+    height: 137px;
+}
+.galeriler{
+    margin: auto;
+    width: 300px;
+    height: 100%;
+    background-color: pink;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: left;
+}
+.digericerik{
+    color: #1c1c1c;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.pad{
+    padding: 5px;
+}
+.altciz{
+   text-decoration: underline;
+   width: 100%;
+   color: #5f5f5f; 
+   padding-bottom: 10px;
+}
+.videolar{
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    background-color: burlywood;
+    padding-top: 10px;
+    float: right;
+}
+#videobaslik{
+    width: 1130px;
+    height: 50px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 80px;
+    color: white;
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+}
+.videoikon{
+    width: 188.33px;
+    height: 50px;
+    background-color: #00bcd4;
+    padding-left: 10px;
+    padding-top: 3px;
+    float: left;
+}
+.videoikon img{
+    float: left;
+}
+#cizgi{
+    width: 743.33px;
+    height: 47px;
+    border-bottom-style: solid;
+    border-color: #00bcd4;
+    margin: auto;
+}
+.videohaber{
+    width: 743.33px;
+    height: 151px;
+    position: relative;
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    font-family: ' PT Sans', 'Open Sans', Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    float: left;
+}
+.videohaber img{
+    width: 222.11px;
+    height: 130.06px;
+    float: left;
+    padding: 5px;
+    padding-right: 15px;
+}
+.videohaber h3{
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.videohaber p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    padding-left: 5px;
+}
+.izlen{
+    width: 65px;
+    height: 37px;
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #e6e6e6;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.tarih{
+    width: 74.2px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    margin: 0px auto;
+    color: #808080;
+    font-size: 10px;
+    padding: 5px;
+}
+.reklam{
+    width: 743.33px;
+    height: 483.39px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    float: left;
+
+}
+.reklam h3{
+    padding: 5px 30px 5px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.reklam img{
+    width: 691px;
+    height: 361.61px;
+    margin: auto;
+    float: left;
+    padding: 15px 30px 10px;
+}
+.reklam a{
+    text-decoration: none;
+}
+.reklam a:visited{
+    text-decoration: none;
+}
+.reklamlogo{
+    float: left;
+    margin: auto;
+}
+.reklamlogo img{
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    padding-top: 0px;
+    float: left;
+}
+.reklamlogo h4{
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    float: left;
+    padding: 5px 2px 1px 3px;
+}
+#sidebar{
+    width: 356.66px;
+    height: 100%;
+    float: left;
+    background-color: #00bcd4;
+}
+#content{
+    width: 743.328px;
+    height: 100%;
+    float: left;
+    margin: auto;
+}
